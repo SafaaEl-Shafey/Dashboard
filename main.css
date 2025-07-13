@@ -1,0 +1,152 @@
+.logo{
+    width:100px;
+    height: 100px;
+}
+
+
+.whatapp-background {
+    background: linear-gradient(45deg, #15b144, #91eda3);
+}
+
+.youtube-background {
+    background: linear-gradient(45deg, #e30733, #ed91b9);
+}
+
+.default-background{
+      background: linear-gradient(45deg, #0ea5e9, #f59e0b);
+}
+
+.section-border{
+    border-top:1px solid white;
+}
+
+.color-light{
+    color:#FFD5B3;
+}
+
+.color-dark{
+    color:#07375D;
+}
+
+.color-gray{
+    color:rgb(159, 166, 176);
+}
+
+
+
+/* Contact Section */
+
+.footer{
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    background: linear-gradient(rgb(7, 55, 93,.1),black);
+}
+
+.footer-title{
+    color:white;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem 0rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+
+.contact-grid {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-item {
+    backdrop-filter: blur(20px);
+    border-radius: 10%;
+    padding: 0rem 1rem;
+    margin:0rem .5rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color:white;
+    border:1px solid white;
+}
+
+.contact-item:hover {
+    transform: scale(1.05);
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 20%;
+    color:#07375D;
+    background:linear-gradient(white, #d2d0d0e6);
+}
+
+.contact-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.whatapp-color {
+    color: #25d366;
+}
+
+.tiktok-color {
+    color:black;
+    text-shadow: 2px 2px red;
+}
+
+.youtube-color {
+    color:red;
+}
+
+.instagram-color {
+  color:#fcaf45 ;
+}
+
+
+.telegram-color{
+    color: #229ED9;
+}
+
+
+.facebook-color{
+    color:#0165E1;
+}
+
+/* ************************* */
+
+.whats-app{
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 3px 4px 3px #f6f5f5c8;
+    right: 20px;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+
+/* ******************** */
+.title-about{
+    font-style: italic;
+    text-shadow:3px 3px 4px #07375D;
+}
+
+/* ******************* */
+.section-students{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.white-color{
+    color:white;
+}
