@@ -40,20 +40,7 @@
             background: #0ea5e9;
             color: white;
         }
-
-        /* Header */
-        .header {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(20px);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            margin:0;
-            padding:0;
-            /*display:flex;
-            justify-content: center;
-            align-items: center;*/
-        }
+/* nav */
 
         .nav-item-custom {
             color: white;
