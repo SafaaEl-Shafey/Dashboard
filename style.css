@@ -45,20 +45,25 @@
         .header {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(20px);
-            padding: 0rem;
             position: sticky;
             top: 0;
             z-index: 100;
+            margin:0;
+            padding:0;
+            /*display:flex;
+            justify-content: center;
+            align-items: center;*/
         }
 
         .nav-item-custom {
             color: white;
             text-decoration: none;
-            padding: 1rem 1rem;
+            padding: .5rem .5rem;
             border-radius: 25px;
             background: rgba(255, 255, 255, 0.2);
             transition: all 0.3s ease;
             font-weight: bold;
+            margin:.25rem;
         }
 
         .nav-item-custom:hover {
@@ -81,6 +86,7 @@
             margin-bottom: 1rem;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
             animation: bounceIn 1s ease-out;
+            word-wrap: break-word;
         }
 
         .hero p {
@@ -92,7 +98,6 @@
         }
 
         .cta-button {
-          
             color: white;
             padding: 15px 30px;
             border: none;
@@ -207,7 +212,7 @@
         }
 
         .feature-card:hover {
-            border-color: #0ea5e9;
+            border:2px solid #0ea5e9;
             transform: scale(1.05);
             box-shadow:10px 5px 15px #0ea5e9;
         }
