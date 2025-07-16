@@ -116,3 +116,41 @@
                 }
             });
         });
+
+
+
+        
+        // Robot Game
+        let robotX = 0;
+        let robotY = 0;
+
+        function moveRobot(direction) {
+            const robot = document.getElementById('robot-position');
+            const screen = document.getElementById('game-screen');
+            
+            switch(direction) {
+                case 'left':
+                    robotX = Math.max(robotX - 50, -100);
+                    break;
+                case 'right':
+                    robotX = Math.min(robotX + 50, 100);
+                    break;
+                case 'up':
+                    robotY = Math.max(robotY - 30, -50);
+                    break;
+                case 'down':
+                    robotY = Math.min(robotY + 30, 50);
+                    break;
+            }
+            
+            robot.style.transform = `translate(${robotX}px, ${robotY}px)`;
+            robot.style.transition = 'transform 0.3s ease';
+        }
+
+        function danceRobot() {
+            const robot = document.getElementById('robot-position');
+            robot.style.animation = 'none';
+            setTimeout(() => {
+                robot.style.animation = 'float 0.5s ease-in-out 3';
+            }, 10);
+        }

@@ -385,16 +385,16 @@
         </h2>
         <div class="youtube-grid">
             <div class="video-card">
-                <div class="video-thumbnail" onclick="window.open('https://www.youtube.com/@safaaelshafey', '_blank')">
+                <div class="video-thumbnail" onclick="window.open('https://www.youtube.com/watch?v=8z-ScBACHd0&list=PLrr03VeGsFykYr6l5XQ0CbX1PHTZHUA33&pp=gAQB', '_blank')">
                     <i class="fab fa-youtube"></i>
                 </div>
                 <h3>
-                    <span class="en-content">Scratch Programming for Beginners</span>
-                    <span class="ar-content">برمجة سكراتش للمبتدئين</span>
+                    <span class="en-content">Python Programming for Beginners</span>
+                    <span class="ar-content">لغه البايثون للمبتدئين</span>
                 </h3>
                 <p>
-                    <span class="en-content">Learn to create your first animated game using colorful blocks!</span>
-                    <span class="ar-content">تعلم إنشاء أول لعبة متحركة باستخدام البلوكات الملونة!</span>
+                    <span class="en-content">Learn to create your first program using python Language!</span>
+                    <span class="ar-content">تعلم إنشاء أول برنامج  خاص بك باستخدام لغه البايثون !</span>
                 </p>
                 <div class="video-stats">
                     <span>👁️ 15,432 views</span>
@@ -403,11 +403,11 @@
             </div>
 
             <div class="video-card">
-                <div class="video-thumbnail" onclick="window.open('https://www.youtube.com/@safaaelshafey', '_blank')">
+                <div class="video-thumbnail" onclick="window.open('https://www.youtube.com/watch?v=Npk16cldcUo&list=PLrr03VeGsFyk5B0Gwo_s0rwCkvyCIXMG3&pp=gAQB', '_blank')">
                     <i class="fas fa-calculator"></i>
                 </div>
                 <h3>
-                    <span class="en-content">Build a Calculator with Python</span>
+                    <span class="en-content">Build a Calculator with JavaScript</span>
                     <span class="ar-content">بناء حاسبة باستخدام بايثون</span>
                 </h3>
                 <p>
@@ -421,7 +421,7 @@
             </div>
 
             <div class="video-card">
-                <div class="video-thumbnail" onclick="window.open('https://www.youtube.com/@safaaelshafey', '_blank')">
+                <div class="video-thumbnail" onclick="window.open('https://youtu.be/iDoHW2TX-LY?si=bnj1-xGEmAKGG03e', '_blank')">
                     <i class="fas fa-gamepad"></i>
                 </div>
                 <h3>
@@ -439,7 +439,7 @@
             </div>
 
             <div class="video-card">
-                <div class="video-thumbnail" onclick="window.open('https://www.youtube.com/@safaaelshafey', '_blank')">
+                <div class="video-thumbnail" onclick="window.open('https://www.youtube.com/watch?v=rkCPTWu8mMk&list=PLrr03VeGsFykOS_x1Oh7lYyl3_cZf9a0i&pp=gAQB', '_blank')">
                     <i class="fas fa-globe"></i>
                 </div>
                 <h3>
@@ -457,7 +457,7 @@
             </div>
 
             <div class="video-card">
-                <div class="video-thumbnail" onclick="window.open('https://www.youtube.com/@safaaelshafey', '_blank')">
+                <div class="video-thumbnail" onclick="window.open('https://youtu.be/4fixv6Fu3NY?si=EIo8hwQqtITTS8_2', '_blank')">
                     <i class="fas fa-robot"></i>
                 </div>
                 <h3>
@@ -475,7 +475,7 @@
             </div>
 
             <div class="video-card">
-                <div class="video-thumbnail" onclick="window.open('https://www.youtube.com/@safaaelshafey', '_blank')">
+                <div class="video-thumbnail" onclick="window.open('https://youtu.be/ty26KlNa9iQ?si=v2s0D-86za0q1jKj', '_blank')">
                     <i class="fas fa-magic"></i>
                 </div>
                 <h3>
@@ -493,6 +493,43 @@
             </div>
         </div>
     </section>
+
+
+    
+    <!-- Interactive Coding Game -->
+    <section class="section">
+        <h2 class="section-title">
+            <span class="en-content">🎮 Try Programming Now!</span>
+            <span class="ar-content">🎮 جرب البرمجة الآن!</span>
+        </h2>
+        <div class="coding-game">
+            <div class="game-screen" id="game-screen">
+                <div>
+                    <span class="en-content">🤖 Robot says: "Click buttons to make me move!"</span>
+                    <span class="ar-content">🤖 الروبوت يقول: "اضغط الأزرار لتحريكي!"</span>
+                </div>
+                <div id="robot-position" style="font-size: 4rem; margin: 1rem;">🤖</div>
+            </div>
+            <div class="game-buttons">
+                <button class="game-button" onclick="moveRobot('left')">
+                    ⬅️ <span class="en-content">Left</span><span class="ar-content">يسار</span>
+                </button>
+                <button class="game-button" onclick="moveRobot('up')">
+                    ⬆️ <span class="en-content">Up</span><span class="ar-content">أعلى</span>
+                </button>
+                <button class="game-button" onclick="moveRobot('down')">
+                    ⬇️ <span class="en-content">Down</span><span class="ar-content">أسفل</span>
+                </button>
+                <button class="game-button" onclick="moveRobot('right')">
+                    ➡️ <span class="en-content">Right</span><span class="ar-content">يمين</span>
+                </button>
+                <button class="game-button" onclick="danceRobot()">
+                    💃 <span class="en-content">Dance</span><span class="ar-content">رقص</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
 
     <!-- Why Us Section -->
     <section class="section section-border" id="why-us">
