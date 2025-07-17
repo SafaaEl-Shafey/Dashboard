@@ -65,7 +65,7 @@
     backdrop-filter: blur(20px);
     border-radius: 10%;
     padding: 0rem 1rem;
-    margin:0rem .5rem;
+    margin:.5rem .5rem;
     transition: all 0.3s ease;
     text-decoration: none;
     color:white;
