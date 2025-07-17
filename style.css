@@ -16,7 +16,7 @@
         /* Language Switcher */
         .language-switcher {
             position: fixed;
-            top: 2%;
+            top: 1px;
             right: 3%;
             z-index: 1000;
             background: rgba(255, 255, 255, 0.9);
