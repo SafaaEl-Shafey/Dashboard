@@ -117,7 +117,7 @@
         .floating-icon:nth-child(1) { top: 20%; left: 10%; animation-delay: 0s; }
         .floating-icon:nth-child(2) { top: 60%; right: 10%; animation-delay: 2s; }
         .floating-icon:nth-child(3) { bottom: 30%; left: 10%; animation-delay: 4s; }
-        .floating-icon:nth-child(4) { top: 20%; right: 20%; animation-delay: 3s; }
+        /*.floating-icon:nth-child(4) { top: 20%; right: 20%; animation-delay: 3s; }*/
 
         @keyframes float {
             0%, 100% { transform: translateY(0px); }
