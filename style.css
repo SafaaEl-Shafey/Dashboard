@@ -224,7 +224,7 @@
         .calc-screen {
             background: #1e293b;
             border-radius: 15px;
-            padding: 1.2rem;
+            padding: 2rem .5rem;
             margin: 1rem 0;
             font-family: 'Courier New', monospace;
             color: #0ea5e9;
