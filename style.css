@@ -18,7 +18,7 @@
         .language-switcher {
             position: fixed;
             top: 1px;
-            right: 3%;
+            right:3%;
             z-index: 1000;
             background: rgba(255, 255, 255, 0.9);
             border-radius: 25px;
@@ -115,9 +115,9 @@
         }
 
         .floating-icon:nth-child(1) { top: 20%; left: 10%; animation-delay: 0s; }
-        .floating-icon:nth-child(2) { top: 60%; right: 15%; animation-delay: 2s; }
-        .floating-icon:nth-child(3) { bottom: 30%; left: 20%; animation-delay: 4s; }
-     
+        .floating-icon:nth-child(2) { top: 60%; right: 10%; animation-delay: 2s; }
+        .floating-icon:nth-child(3) { bottom: 30%; left: 10%; animation-delay: 4s; }
+        .floating-icon:nth-child(4) { top: 20%; right: 20%; animation-delay: 3s; }
 
         @keyframes float {
             0%, 100% { transform: translateY(0px); }
