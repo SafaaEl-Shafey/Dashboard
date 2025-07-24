@@ -186,6 +186,7 @@
 
         .whatsapp-float:hover {
             background: #128c7e;
+            color: yellow;
             transform: scale(1.1);
             box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
         }
